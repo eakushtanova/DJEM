@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'benzin-bold';
+    src: url('../fonts/benzin-bold.otf') format('truetype');
+    font-style: bold;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'anonymous pro';
+    src: url('../fonts/AnonymousPro-Bold.ttf') format('truetype');
+    font-style: bold;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'anonymous pro';
+    src: url('../fonts/AnonymousPro-Regular.ttf') format('truetype');
+    font-style: regular;
+    font-weight: 300;
+}

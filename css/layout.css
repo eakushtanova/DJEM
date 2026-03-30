@@ -1,0 +1,562 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+* {
+    box-sizing: border-box;
+}
+@media (max-width: 1280px) {
+    
+}
+@media (max-width: 1024px) {
+    
+}
+@media (max-width: 768px) {
+   
+}
+.hero {
+    background-color: #F0ECEA;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 52vw;
+    justify-content: flex-start;
+    background-image: url('../images/girl0.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: 0% 100%;
+}
+.DJ {
+    position: relative;
+    font-family: 'benzin-bold';
+    font-weight: 500;
+    margin-top: -4vw;
+    padding-left: 2vw;
+    font-size: 25vw;
+    color: #4868D0;
+    letter-spacing: 2%;
+    justify-content: flex-start;
+    z-index: 1;
+}
+.EM {
+    position: relative;
+    font-family: 'benzin-bold';
+    font-weight: 500;
+    margin-top: -4vw;
+    color: #000;
+    letter-spacing: 2%;
+    font-size: 25vw;
+    justify-content: flex-start;
+    z-index: 1;
+}
+.subtitle {
+    position: absolute;
+    font-family: 'anonymous pro';
+    display: flex;
+    margin-top: 24vw;
+    font-size: 2vw;
+    justify-content: flex-start;
+    font-weight: 500;
+    white-space:nowrap;
+    color: #000000;
+    z-index: 1;
+    padding-left: 3vw;
+    z-index: 1;
+}
+.zerobtn {
+    position: absolute;
+    display: flex;
+    width: 4vw;
+    height: 4vw;
+    margin-top: 1.7vw;
+    margin-left: 3vw;
+    border-radius: 50%;
+    background-color: transparent;
+    overflow: hidden;
+    background-image: url('../images/btn\ 0.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+.hero-overlay1 {
+    position: absolute;
+    display: flex;
+    height: 52vw;
+    width: 100vw;
+    background-color: #F0ECEA 0%;
+    background-image: url(../images/dance.png);
+    background-size:cover;
+    background-position: center;
+    z-index: 2;
+    clip-path: circle(0% at 50% 50%);
+    transition: clip-path .4s ease;
+    will-change: clip-path;
+}
+.firstbtn {
+    position: absolute;
+    display: flex;
+    width: 4vw;
+    height: 4vw;
+    margin-top: 15.5vw;
+    margin-left: 9.2vw;
+    background-color: transparent;
+    background-image: url('../images/btn-1.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+.firstbtn:hover + .hero-overlay1 {
+    clip-path: circle(150% at 50% 50%)
+}
+.secondbtn {
+    position: absolute;
+    display: flex;
+    width: 4vw;
+    height: 4vw;
+    margin-top: 1.5vw;
+    margin-left: 39.3vw;
+    background-color: transparent;
+    background-image: url('../images/btn-2.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+.hero-overlay2 {
+    position: absolute;
+    display: flex;
+    height: 52vw;
+    width: 100vw;
+    background-color: #F0ECEA 0%;
+    background-image: url(../images/jazz.png);
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+    clip-path: circle(0% at 50% 50%);
+    transition: clip-path .4s ease;
+    will-change: clip-path;
+}
+.secondbtn:hover+.hero-overlay2 {
+    clip-path: circle(150% at 50% 50%)
+}
+.thirdbtn {
+    position: absolute;
+    display: flex;
+    width: 4vw;
+    height: 4vw;
+    margin-top: 23.1vw;
+    margin-left: 63vw;
+    background-color: transparent;
+    background-image: url('../images/btn-3.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+.hero-overlay3 {
+    position: absolute;
+    display: flex;
+    height: 52vw;
+    width: 100vw;
+    background-color: #F0ECEA 0%;
+    background-image: url(../images/electro.png);
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+    clip-path: circle(0% at 50% 50%);
+    transition: clip-path .4s ease;
+    will-change: clip-path;
+}
+.thirdbtn:hover+.hero-overlay3 {
+    clip-path: circle(150% at 50% 50%)
+}
+.fourthbtn {
+    position: absolute;
+    display: flex;
+    width: 4vw;
+    height: 4vw;
+    margin-top: 1.7vw;
+    margin-left: 91.7vw;
+    background-color: transparent;
+    background-image: url('../images/btn-4.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+.fourthbtn:hover+.hero-overlay4 {
+    clip-path: circle(150% at 50% 50%)
+}
+.hero-overlay4 {
+    position: absolute;
+    display: flex;
+    height: 52vw;
+    width: 100vw;
+    background-color: #F0ECEA 0%;
+    background-image: url(../images/metal.png);
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+    clip-path: circle(0% at 50% 50%);
+    transition: clip-path .4s ease;
+    will-change: clip-path;
+}
+.second {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 57vw;
+    justify-content: flex-start;
+    background-image: url('../images/background1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Capsules {
+    position: relative;
+    font-family: 'benzin-bold';
+    font-weight: 500;
+    font-size: 7vw;
+    color: #F0ECEA;
+    letter-spacing: 2%;
+    z-index: 1;
+    padding-left: 3vw;
+    margin-top: 3vh;
+}
+.subtitle2 {
+    position: relative;
+    font-family: 'anonymous pro';
+    display: flex;
+    font-weight: 500;
+    font-size: 2vw;
+    color: #F0ECEA;
+    padding-left: 52vw;
+    letter-spacing: 4%;
+}
+.hoverplay {
+    position: absolute;
+    display: flex;
+    width: 22vw;
+    height: 36vw;
+    margin-top: 14vw;
+    margin-left: 2.5vw;
+    background-image: url(../images/pre\ first\ out.png);
+    background-size:cover;
+    background-position: center;
+    border-radius: 20%;
+}
+.hoverplay:hover {
+    background-image: url(../images/fit1.gif);
+}
+.hoverplay2 {
+    position: absolute;
+    display: flex;
+    width: 22vw;
+    height: 36vw;
+    margin-top: 14vw;
+    margin-left: 27vw;
+    background-image: url(../images/prefit2.png);
+    background-size:cover;
+    background-position: center;
+    border-radius: 20%;
+}
+.hoverplay2:hover {
+    background-image: url(../images/fit2.gif);
+}
+.hoverplay3 {
+    position: absolute;
+    display: flex;
+    width: 22vw;
+    height: 36vw;
+    margin-top: 14vw;
+    margin-left: 50vw;
+    background-image: url(../images/fit\ 3.png);
+    background-size:cover;
+    background-position: center;
+    border-radius: 20%;
+}
+.hoverplay4 {
+    position: absolute;
+    display: flex;
+    width: 22vw;
+    height: 36vw;
+    margin-top: 14.2vw;
+    margin-left: 73vw;
+    background-image: url(../images/fit4.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20%;
+}
+.num {
+    position: absolute;
+    display: flex;
+    height: 1.7vw;
+    margin-top: 52vw;
+    margin-left: 12vw;
+}
+.line {
+    position: relative;
+    background-color: #EDA9AF;
+    display: flex;
+    height: 8vw;
+    flex-wrap: nowrap;
+    overflow: hidden; 
+}
+.running1 {
+    display: flex;
+    width: 100vw;
+    margin: auto;
+    animation: scrollLeft1 10s linear infinite;
+}
+    
+@keyframes scrollLeft1 {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-230%);
+    }
+}
+.dance {
+    position: relative;
+    font-family: 'benzin-bold';
+    display: flex;
+    font-weight: 500;
+    font-size: 4vw;
+    color: #3F5AAE;
+    margin-left: 5vw;
+    white-space: nowrap
+}
+.jazz {
+    position: relative;
+    font-family: 'benzin-bold';
+    display: flex;
+    font-weight: 500;
+    font-size: 4vw;
+    color: #000000;
+    margin-left: 5vw;
+    white-space: nowrap
+}
+.electro {
+    position: relative;
+    font-family: 'benzin-bold';
+    display: flex;
+    font-weight: 500;
+    font-size: 4vw;
+    color: #3F5AAE;
+    margin-left: 5vw;
+    white-space: nowrap
+}
+.metal {
+    position: relative;
+    font-family: 'benzin-bold';
+    display: flex;
+    font-weight: 500;
+    font-size: 4vw;
+    color: #000000;
+    margin-left: 5vw;
+    white-space: nowrap
+}
+.third {
+    position: relative;
+    background-color: #F0ECEA;
+    display: flex;
+    flex-wrap: wrap;
+    height: 61vw;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+.base {
+    display: flex;
+    position: relative;
+    width: 17vw;
+    height: 9vw;
+    margin-left: 41vw;
+    margin-top: 2.5vw;
+    z-index: 2;
+}
+button {
+    border: none;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 3;
+}
+.play {
+    position: relative;
+    height: 7vw;
+    width: 7vw;
+    border-radius: 50%;
+    background-color: #4868D0;
+    background-image: url('../images/play\ btn.png');
+    background-size: contain;
+    margin-top: 3.5vw;
+    margin-left: -8vw;
+    z-index: 3;
+    
+}
+.pause {
+    border: none;
+    position: relative;
+    height: 7vw;
+    width: 7vw;
+    margin-left: -10vw;
+    border-radius: 100%;
+    border-radius: 50%;
+    background-color: #4868D0;
+    background-image: url('../images/pause.png');
+    background-size: contain;
+    margin-top: 3.5vw;
+    margin-left: -14.5vw;
+    z-index: 3;
+}
+.outfits {
+    position: absolute;
+    margin-top: 13vw;
+    display: flex;
+    height: 100vw;
+    justify-content:flex-start ;
+    animation: rotation1 15s linear infinite;
+    z-index: 2;
+}
+.running {
+    animation-play-state: running;
+}
+.paused {
+    animation-play-state: paused;
+}
+@keyframes rotation1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.subline3 {
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    height: 25%;
+    margin-left: 7vw;
+    margin-top: 19vw;
+    z-index: 1;
+}
+.subline4 {
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    height: 25%;
+    margin-left: 77.3vw;
+    margin-top: 19vw;
+    z-index: 1;
+}
+.fourth {
+    position: relative;
+    height: 57vw;
+    display: flex;
+    justify-content: flex-start;
+    background-image: url('../images/background2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.eventdate {
+    position: absolute;
+    display: flex;
+    font-family: 'anonymous pro';
+    font-weight: 300;
+    font-size: 3vw;
+    color: #F0ECEA;
+    line-height: 122%;
+    margin-left: 4.5vw;
+    margin-top: 4vw;
+}
+.eventplace {
+    position: absolute;
+    display: flex;
+    font-family: 'anonymous pro';
+    font-weight: 300;
+    font-size: 3vw;
+    color: #F0ECEA;
+    line-height: 122%;
+    margin-left: 4.5vw;
+    margin-top: 10vw;
+}
+.when {
+    position: absolute;
+    display: flex;
+    height: 5vw;
+    margin-left: 3vw;
+    margin-top: 3.5vw;
+}
+.when:hover {
+    transform: translateX(-20vw);
+    transition: 1s;
+}
+
+.where {
+    position: absolute;
+    display: flex;
+    height: 5vw;
+    margin-left: 3vw;
+    margin-top: 9.5vw;
+}
+.where:hover {
+    transform: translateX(-35vw);
+    transition: 1s;
+}
+.logo {
+    position: absolute;
+    display: flex;
+    height: 34.5vw;
+    margin-left: 4vw;
+    margin-top: 18vw;
+}
+.finalgif {
+    position: absolute;
+    display: flex;
+    width: 29vw;
+    height: 57vw;
+    margin-top: -3vw;
+    margin-left: 65vw;
+    background-image: url(../images/morph.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20%;
+}
+.five {
+    position: relative;
+    background-color: #EDA9AF;
+    display: flex;
+    height: 8vw;
+    flex-wrap: nowrap;
+    overflow: hidden; 
+}
+.lefttext {
+    position: absolute;
+    font-family: 'anonymous pro';
+    display: flex;
+    font-weight: 300;
+    font-size: 2vw;
+    color: #000;
+    line-height: 122%;
+    margin-left: 4vw;
+    margin-top: 1.5vw;
+}
+.righttext {
+    position: absolute;
+    font-family: 'anonymous pro';
+    display: flex;
+    justify-content: end;
+    font-weight: 300;
+    font-size: 2vw;
+    color: #000;
+    line-height: 122%;
+    margin-left: 54vw;
+    margin-top: 1.5vw;
+    text-align: right;
+}
